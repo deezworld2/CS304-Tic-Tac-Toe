@@ -69,4 +69,4 @@ The entirety of the source code for the project is written in Java. All of the c
      * ```public JButton[][] grid``` holds an array of buttons to be used as the gameboard.
      * ```public JPanel panel```, ```JLabel resultLabel```, and ```JPanel container``` serve as containers to hold and display different parts of the game.
      #### Methods
-     * ```public TicTacToeView(TicTacToeModel model)``` 
+     * ```public TicTacToeView(TicTacToeModel model)``` constructor that sets up the layout and composition of content to be displayed in the GUI. It sets the layout of ```panel``` to a ```GridLayout``` of size ```model.getWidth()``` to serve as the display area for the gameboard. ```resultLabel``` is set to display the game's winner. ```container``` is given a ```BoxLayout``` of 
