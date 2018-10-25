@@ -9,4 +9,14 @@ The idea of this assignment/project was to create a simple game of Tic-Tac-Toe, 
 The entirety of the source code for the project is written in Java. All of the classes used in the project are documented as follows:
   * ### __TicTacToe.java__
    		
-     This is the driver class for the project, where the game-loop is located and the ot
+     This is the driver class for the project, where the main game-loop is located and all of the class methods are exercised. The class has a single member variable ```DEFAULT_WIDTH = 3``` to hold the default board size as an _integer_. In the event that the user wants to use a different board size, the following lines of code are included to allow them to pass a board size as an _Integer_ parameter to the _main_ method:
+     ```
+     if(args.length >= 1) {
+
+            try {
+                width = Integer.parseInt(args[0]);
+            }
+            catch(NumberFormatException e) {}
+
+     }
+      ```
