@@ -50,4 +50,5 @@ The entirety of the source code for the project is written in Java. All of the c
      * ```public enum Mark``` holds an enumeration of strings to serve as board-pieces. It holds three different enumerations: ```X("X")```, ```O("O")```, and ```EMPTY("")```.
      * ```public enum Result``` holds an ```enum``` of strings to be used when printing the final game result. ```Result``` has four enumerations: ```X("X)```, ```O("O")```, ```TIE("Tie")```, and ```NONE("None")```.
      #### Methods
-     * ```public TicTacToeModel(int width)``` is a constructor that accepts an integer value to load into the ```width``` member variable. The constructor also sets ```xTurn``` to ```true```, meaning that "X" will always go first. The default constructor sets ```wisth``` to 3.
+     * ```public TicTacToeModel(int width)``` is a constructor that accepts an integer value to load into the ```width``` member variable. The constructor also sets ```xTurn``` to ```true```, meaning that "X" will always go first. The constructor also initializes the gameboard ```grid``` to be an array of ```Mark``` enumerations of size ```[width][width]```. The constructor then fills each cell of the gameboard with ```EMPTY``` ```Mark```'s to simulate an empty gameboard.
+     
