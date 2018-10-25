@@ -47,3 +47,4 @@ The entirety of the source code for the project is written in Java. All of the c
      * ```public Mark[][] grid;``` holds the contents of the game board
      * ```private boolean xTurn;``` keeps track of which player's turn it is
      * ```private int width;``` holds the board size
+     * ```public enum Mark``` holds an enumeration of strings to serve as board-pieces. It holds three different enumerations: ```X("X")```, ```O("O")```, and ```EMPTY("")```.
