@@ -63,6 +63,10 @@ The entirety of the source code for the project is written in Java. All of the c
      * ```public boolean isXTurn()``` checks to see if it is X's turn.
      * ```public int getWidth()``` returns the board size.
   * ### TicTacToeView.java
-     The ```TicTacToeView``` class holds all of the coding for the GUI. This class uses assets from the _java.awt_ and the _javax.swing_ libraries.
+     The ```TicTacToeView``` class holds all of the coding for the GUI. This class uses assets from the _java.awt_ and the _javax.swing_ libraries. __NOTE:__ The ```TicTacToeView``` class ```extends JPanel``` and ```implements ActionListener```.
      #### Structures and Variables
-     
+     * ```private TicTacToeModel model``` holds the game instance to be used in the GUI.
+     * ```public JButton[][] grid``` holds an array of buttons to be used as the gameboard.
+     * ```public JPanel panel```, ```JLabel resultLabel```, and ```JPanel container``` serve as containers to hold and display different parts of the game.
+     #### Methods
+     * ```public TicTacToeView(TicTacToeModel model)``` 
