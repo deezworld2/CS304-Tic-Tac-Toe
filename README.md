@@ -62,3 +62,7 @@ The entirety of the source code for the project is written in Java. All of the c
      * ```public boolean isGameover()``` checks to see if the game is over by checking to see if the value of ```getResult()``` is ```Result.NONE```. If the two values are equal, it will return ```true```. Otherwise, it will return ```false```.
      * ```public boolean isXTurn()``` checks to see if it is X's turn.
      * ```public int getWidth()``` returns the board size.
+  * ### TicTacToeView.java
+     The ```TicTacToeView``` class holds all of the coding for the GUI. This class uses assets from the _java.awt_ and the _javax.swing_ libraries.
+     #### Structures and Variables
+     
