@@ -73,4 +73,4 @@ The entirety of the source code for the project is written in Java. All of the c
      * ```public void showNextMovePrompt()``` prompts users to input their moves on the gameboard.
      * ```public void showInputError()``` gives users an error if they input a value that is less than zero or is not in the accepted range.
      * ```public void showResult(String r)``` outputs the result of the game.
-     * ```public void actionPerformed(ActionEvent e)``` contains code for receiveing and handling user input in the GUI.
+     * ```public void actionPerformed(ActionEvent e)``` contains code for receiveing and handling user input in the GUI. It detects button clicks using ```getSource()``` and retrieves the indexes of the buttons and stores them in two integer variables: ```row``` and ```col```.
