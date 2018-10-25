@@ -8,4 +8,5 @@ The idea of this assignment/project was to create a simple game of Tic-Tac-Toe, 
 ## Documentation
 The entirety of the source code for the project is written in Java. All of the classes used in the project are documented as follows:
   * ### __TicTacToe.java__
-   		This is the driver class for the 
+   		
+     This is the driver class for the project, where the game-loop is located and the ot
