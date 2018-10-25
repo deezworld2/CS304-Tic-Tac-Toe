@@ -48,3 +48,6 @@ The entirety of the source code for the project is written in Java. All of the c
      * ```private boolean xTurn;``` keeps track of which player's turn it is
      * ```private int width;``` holds the board size
      * ```public enum Mark``` holds an enumeration of strings to serve as board-pieces. It holds three different enumerations: ```X("X")```, ```O("O")```, and ```EMPTY("")```.
+     * ```public enum Result``` holds an ```enum``` of strings to be used when printing the final game result. ```Result``` has four enumerations: ```X("X)```, ```O("O")```, ```TIE("Tie")```, and ```NONE("None")```.
+     #### Methods
+     * ```public TicTacToeModel(int width)``` is a constructor that accepts an integer value to load into the ```width``` member variable. The constructor also sets ```xTurn``` to ```true```, meaning that "X" will always go first. The default constructor sets ```wisth``` to 3.
