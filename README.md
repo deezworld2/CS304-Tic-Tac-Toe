@@ -42,4 +42,4 @@ The entirety of the source code for the project is written in Java. All of the c
      ```
   
   * ### TicTacToeModel.java
-  
+   The ```TicTacToeModel``` class holds all of the base game code, including move-handling (checking if moves are valid and inputting the moves on the board), turn-tracking (keeping track of which player's turn it is), and win-checking. This class is the foundation of the project, and all code for the GUI is based on the code in this class.
