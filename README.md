@@ -27,4 +27,10 @@ The entirety of the source code for the project is written in Java. All of the c
     TicTacToeModel model = new TicTacToeModel(width); //create instance of the game
     TicTacToeView view = new TicTacToeView(model); //create GUI of game instance
     ```
-   
+    The main loop contains simple statements that set the conditions for the view-window of the GUI. The window is created using a ```JFrame``` object imported from the _javax.swing.JFrame_ library. The window size is set to 800 x 800 with the condition to exit when it is closed.
+    ```
+    JFrame frame = new JFrame("Tic-Tac-Toe");
+
+    frame.setSize(800,800);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    ```
