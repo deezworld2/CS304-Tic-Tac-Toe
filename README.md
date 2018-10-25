@@ -34,3 +34,10 @@ The entirety of the source code for the project is written in Java. All of the c
     frame.setSize(800,800);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     ```
+     The window ```frame``` is set to hold the GUI ```view``` using the ```JFrame```'s ```add()``` method.
+     ```
+     frame.getContentPane().add(view.container);
+     frame.pack();
+     frame.setVisible(true);
+     ```
+     
